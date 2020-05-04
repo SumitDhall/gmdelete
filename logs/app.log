@@ -1,0 +1,8 @@
+2020-03-12 14:50:53,094 DEBUG c.m.g.g.GarageManagementDeleteApplication [main] Inside the Debug logger Garage Management Add Update Delete Rest API
+2020-03-12 14:50:53,095 INFO c.m.g.g.GarageManagementDeleteApplication [main] Inside the info logger Garage Management Add Update Delete Rest API
+2020-03-12 14:50:53,096 ERROR c.m.g.g.GarageManagementDeleteApplication [main] Inside the error logger Garage Management Add Update Delete Rest API
+2020-03-12 14:51:47,545 DEBUG c.m.g.c.VehicleModelDeleteController [http-nio-8908-exec-1] Inside the Debug logger in Vehicle Controller class
+2020-03-12 14:54:10,940 DEBUG c.m.g.g.GarageManagementDeleteApplication [main] Inside the Debug logger Garage Management Add Update Delete Rest API
+2020-03-12 14:54:10,944 INFO c.m.g.g.GarageManagementDeleteApplication [main] Inside the info logger Garage Management Add Update Delete Rest API
+2020-03-12 14:54:10,945 ERROR c.m.g.g.GarageManagementDeleteApplication [main] Inside the error logger Garage Management Add Update Delete Rest API
+2020-03-12 14:54:30,394 DEBUG c.m.g.c.VehicleModelDeleteController [http-nio-8908-exec-2] Inside the Debug logger in Vehicle Controller class

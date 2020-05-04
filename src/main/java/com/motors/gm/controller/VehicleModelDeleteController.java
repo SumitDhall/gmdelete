@@ -17,6 +17,9 @@ import com.motors.gm.model.VehicleModel;
 import com.motors.gm.repository.VehicleModelDeleteRepository;
 import com.motors.gm.service.VehicleModelDeleteService;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 @RestController
 @RequestMapping(path = "/deleteAsset")
 public class VehicleModelDeleteController {
@@ -26,12 +29,19 @@ public class VehicleModelDeleteController {
 
 	@Autowired
 	VehicleModelDeleteService vehicleModelDeleteService;
+	
+	private static final Logger LOGGER = LogManager.getLogger(VehicleModelDeleteController.class.getName());
 
 	// delete method will call service delete method to delete the existing
 	// vehicle in DB
 	// TO-DO need to create new project for Delete
 	@DeleteMapping(path = "/deleteVehicle/{regNumber}", produces = "application/json")
 	public String deleteVehicle(@PathVariable String regNumber) {
+		
+		for(int i=0; i<=80000; i++){
+			LOGGER.debug("Inside the Debug logger in Vehicle Controller class"+i);
+		}
+		LOGGER.debug("Inside the Debug logger in Vehicle Controller class");
 		return vehicleModelDeleteService.deleteVehicle(regNumber);
 	}
 
